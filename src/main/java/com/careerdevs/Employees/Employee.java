@@ -8,7 +8,7 @@ import javax.persistence.Id;
 public class Employee {
     private String name;
     private @Id @GeneratedValue Long id;
-    private int age;
+    private Integer age;
     private String role;
 
     public Employee(String name, int age, String role) {
